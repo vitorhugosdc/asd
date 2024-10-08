@@ -1,0 +1,52 @@
+https://docs.docker.com/desktop/install/linux/ubuntu/
+
+https://docs.docker.com/engine/install/ubuntu/
+
+sudo dpkg -i docker-desktop-amd64.deb (instalar pacotes .deb)
+
+instalar pyenv
+
+code .bashrc
+
+sqlalchemy (ORM)
+
+poetry
+
+docker compose exec web (executar docker/entrar)
+
+docker compose exec web bash
+
+docker compose up --build (da um up já com build)
+
+pytest -vv tests/functional/apiapp/test_fields.py
+
+pytest -vv tests/functional/apiapp/test_ovitraps.py
+
+_ antes das funções é convenção pra função privada
+
+botao direito, source action e remove unused imports
+
+ai também shift + alt + o para organizar imports por ordem alafbetica
+
+factoryboy (bib para factories)
+
+dar pull da main, se der coflito resolve, se for import e talz, adiciona os 2 e abre os arquivos novamente que estão em conflito, 
+resolve apertando o organize la ou shift+ alt + o, quando der tudo certo, cria uma branch a partir da main, da commit (não precisa de push) ai muda pra main e faz merge da branch criada para a main e apaga a branch criada
+
+format on save
+
+python auto indent
+
+1 - cria uma nova branch (clica na main e seleciona create branch here)
+2 - faz tudo que tem que fazer
+3 - da commit (sem push)
+4 - faz merge da branch na main, arrastando a branch nela, ou vice-versa
+
+ctrl + setinha > vai pro fim da palavra, ai importa
+
+Mobile usa token, web usa cookie (login.py)
+
+
+No session provided é pq tem que adicionar a nova factory no conftest
+
+greatest-n per group
