@@ -1,0 +1,18 @@
+# PROJECT
+DATABASE_URL=postgresql+psycopg://arbomonitordev:123@db:5432/arbomonitor
+STORAGE=local
+MEDIA_DIR=media
+
+# FARMGO
+FARMGO_TOKEN=<token_farmgo>
+FARMGO_URL=<url_farmgo>
+
+# CELERY
+CELERY_BROKER_URL=redis://redis:6379/0
+CELERY_RESULT_BACKEND=redis://redis:6379/0
+
+# OPEN WEATHER MAP
+OPENWEATHERMAP_API_KEY=<token_openweathermap>
+TEST_DATABASE_URL=postgresql+psycopg://arbomonitordev:123@db:5432/arbomonitorteste
+
+MEDIA_URL=media
